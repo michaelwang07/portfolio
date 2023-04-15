@@ -11,19 +11,19 @@ import {
 
 const router = createHashRouter([
   {
-    path: "/portfolio",
+    path: "/",
     element: <Homepage />,
   },
   {
-    path: "/portfolio/about",
+    path: "/about",
     element: <About />,
   },
   {
-    path: "/portfolio/resume",
+    path: "/resume",
     element: <Resume />,
   },
   {
-    path: "/portfolio/contact",
+    path: "/contact",
     element: <Contact />,
   },
 ]);
