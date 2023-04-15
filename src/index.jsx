@@ -11,19 +11,19 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/portfolio",
     element: <Homepage />,
   },
   {
-    path: "/about",
+    path: "/portfolio/about",
     element: <About />,
   },
   {
-    path: "/resume",
+    path: "/portfolio/resume",
     element: <Resume />,
   },
   {
-    path: "/contact",
+    path: "/portfolio/contact",
     element: <Contact />,
   },
 ]);
