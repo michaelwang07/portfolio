@@ -1,38 +1,171 @@
-.App {
+:root {
+  --color-golden: #DCCA87;
+  --color-darkgray:  #222831;
+  --color-gray: #545454;
+  --color-lightgray: #AAAAAA;
+  --color-smoke: #eeeeee; 
+  --color-lightblue: #0092ca;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  /* border: solid red; */
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  border-top: 3px double;
+  color: var(--color-gray);
+  overflow: visible;
   text-align: center;
+  height: 5px;
+  margin: 4rem 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+hr:after {
+  background: #fff;
+  content: '§';
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.section__padding {
+  padding: 4rem 6rem;
+  min-height: 55vh;
+}
+
+.content-1 {
+  font-family: brandon-grotesque, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.content-2 {
+  font-family: adobe-caslon-pro;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: normal;
+  letter-spacing: 2px;
+  line-height: 28px;
+  text-transform: none;
+  color: #FFFFFF;
+}
+
+.header-1 {
+  font-family: brandon-grotesque, sans-serif;
+  font-size: 59px;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 5px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.header-2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 75px;
+  letter-spacing: 2px;
+  color: var(--color-golden);
+}
+
+.paragraph-1 {
+  font-family: 'Lora', serif;
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.paragraph-2 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.custom__button {
+  color: #383838;
+  background-color: #fff;
+  border: none;
+  font-family: Karla;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  padding: 21px 34px;
+  margin: 2rem 0;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 2000px) {
+  .header-1 {
+    letter-spacing: 10px;
+  }
+
+  .header-2 {
+    font-size: 75px;
+    line-height: 90px;
+  }
+
+  .paragraph-1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .content-1 {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .paragraph-2 {
+    font-size: 24px;
+    line-height: 32px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 1200px) {
+  .header-1 {
+    font-size: 50px;
+    line-height: 60px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width: 650px) {
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+
+  .header-1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .header-2 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+
+  .content-2 {
+    font-size: 20px !important;
+    line-height: 24px;
   }
 }

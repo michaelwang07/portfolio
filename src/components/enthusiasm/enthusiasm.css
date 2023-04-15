@@ -1,0 +1,25 @@
+.app__enthusiam {
+  background-color: var(--color-gray);
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.app__enthusiam-description,
+.app__enthusiam-adaptablility_description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.app__enthusiam-image {
+  min-width: 80vw;
+}
+
+.app__enthusiam-image img{
+  width: 100%;
+}
+
+.app__enthusiam-adaptablility {
+  margin-bottom: 2rem;
+}
