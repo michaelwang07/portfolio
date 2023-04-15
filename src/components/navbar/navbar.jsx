@@ -15,16 +15,16 @@ const Navbar = () => {
       </div>
       <ul className='app__navbar-links'>
         <li>
-          <a href="/portfolio/" className='content-2'>Home</a>
+          <a href="/" className='content-2'>Home</a>
         </li>
         <li>
-          <a href="/portfolio/about" className='content-2'>About</a>
+          <a href="/portfolio/#/about" className='content-2'>About</a>
         </li>
         <li>
-          <a href="/portfolio/resume" className='content-2'>Resume</a>
+          <a href="/portfolio/#/resume" className='content-2'>Resume</a>
         </li>
         <li>
-          <a href="/portfolio/contact" className='content-2'>Contact</a>
+          <a href="/portfolio/#/contact" className='content-2'>Contact</a>
         </li>
         <li>
           <div className='app__navbar-socialmedia'>
@@ -58,13 +58,13 @@ const Navbar = () => {
             <a href="/portfolio/" className='content-2'>Home</a>
           </li>
           <li>
-            <a href="/portfolio/about" className='content-2'>About</a>
+            <a href="/portfolio/#/about" className='content-2'>About</a>
           </li>
           <li>
-            <a href="/portfolio/resume" className='content-2'>Resume</a>
+            <a href="/portfolio/#/resume" className='content-2'>Resume</a>
           </li>
           <li>
-            <a href="/portfolio/contact" className='content-2'>Contact</a>
+            <a href="/portfolio/#/contact" className='content-2'>Contact</a>
           </li>
         </ul>
         )}
