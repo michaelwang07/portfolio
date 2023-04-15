@@ -5,11 +5,11 @@ import About from './pages/About';
 import Resume from './pages/Resume'
 import Contact from './pages/Contact'
 import {
-  createBrowserRouter,
-  RouterProvider,
+  createHashRouter,
+  RouterProvider
 } from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/portfolio",
     element: <Homepage />,
