@@ -28,7 +28,7 @@ const Footer = () => {
       <div className='app__footer-bottom'>
         <h1 className='header-2'>Available for Immediate Employment</h1>
         <div className='app__footer-bottom_button'>
-          <button type='button' className='custom__button'>Contact Me Now</button>
+          <a href="/portfolio/#/contact"><button type='button' className='custom__button'>Contact Me Now</button></a>
         </div>
         <div className='app__footer-bottom_socialmedia'>
           <div className='app__footer-bottom_socialmedia_email'>
