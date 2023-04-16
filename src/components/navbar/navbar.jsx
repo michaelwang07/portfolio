@@ -9,13 +9,13 @@ const Navbar = () => {
   return (
     <div className='app__navbar'>
       <div className='app__navbar-mynmae'>
-        <a href="/">
+        <a href="/portfolio/">
           <h1 className='header-1'>Michael Wang</h1>
         </a>
       </div>
       <ul className='app__navbar-links'>
         <li>
-          <a href="/" className='content-2'>Home</a>
+          <a href="/portfolio/" className='content-2'>Home</a>
         </li>
         <li>
           <a href="/portfolio/#/about" className='content-2'>About</a>
