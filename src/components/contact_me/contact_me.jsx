@@ -24,6 +24,7 @@ const contact_me = () => {
       </div>
       <div className='app__contact-emailme'>
         <h1>Email Me</h1>
+        <p>Email Form Template</p>
       </div>
     </div>
   )
