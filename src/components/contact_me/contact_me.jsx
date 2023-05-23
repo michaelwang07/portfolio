@@ -14,7 +14,7 @@ const contact_me = () => {
           <a href="https://github.com/michaelwang07"><h4>michaelwang07</h4></a>
         </div>
         <div className='app__contact-info_network'>
-          <h3>Discrod: </h3>
+          <h3>Discord: </h3>
           <h4>Storm Ax#6886</h4>
         </div>
       </div>
